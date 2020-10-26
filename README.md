@@ -9,6 +9,6 @@ There are three R scripts that run the simulations. Before beginning, users need
 
 Shell scripts corresponding to different simulation settings can be found in the different folders, and each script sets variables for the different simulation settings. In some cases, variations on the three R scripts are used to implement different scenarios. Results generation can take hours for a single simulated dataset, so the array method in Slurm is used to run a set of 1,000 simulations serially on different computing nodes. 
 
-Figures for the manuscript are generated in plots.R, and a LaTeX version of the manuscript supplement can be found on GitHub. (*Note*: Still in progress, 10/26/2020.) 
+Figures for the manuscript are generated in plots.R, and a LaTeX version of the manuscript supplement can be found on GitHub. (*Note*: Still in progress, 10/26/2020.) The directory 'R Package Tarballs' contains .tar.gz files of some R packages that are used, which may need to be loaded into the 'libs' directory on HPC clusters. 
 
 The code is accessible at https://github.com/samrosin/interference-IPCW, where users are encouraged to submit any issues. For other questions, please email srosin@live.unc.edu. 
